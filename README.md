@@ -1,3 +1,9 @@
+## What do we need to install?
+- You can use `:checkhealth [name]` to check what you should install if something goes wrong
+- git, tree-sitter, rip-grep, fd, clangd if you need c++ lsp.
+- one zip tool
+- one download tool, like curl, or wget.
+
 ## How to make clangd works?
 - Install clangd and mason clangd lsp
 - Add `set(CMAKE_EXPORT_COMPILE_COMMANDS ON)` to your Cmake file, and add this to your base folder, remember to change the path
