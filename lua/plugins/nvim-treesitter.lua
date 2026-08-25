@@ -5,7 +5,7 @@ return {
     build = ":TSUpdate",
     config = function()
         require("nvim-treesitter").setup({
-            ensure_installed = { "lua", "toml", "c", "cpp", "python" },
+            ensure_installed = { "lua", "toml", "c", "cpp", "markdown", "markdown_inline", "cmake" },
             auto_install = true,
         })
 
